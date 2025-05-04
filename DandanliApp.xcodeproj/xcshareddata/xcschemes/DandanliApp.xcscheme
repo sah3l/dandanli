@@ -14,9 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DandanliApp"
-               BuildableName = "DandanliApp.app"
                BlueprintName = "DandanliApp"
+               BuildableName = "DandanliApp.app"
                ReferencedContainer = "container:DandanliApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,8 +26,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
+      <Testables/>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -43,9 +41,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DandanliApp"
-            BuildableName = "DandanliApp.app"
             BlueprintName = "DandanliApp"
+            BuildableName = "DandanliApp.app"
             ReferencedContainer = "container:DandanliApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -56,9 +53,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DandanliApp"
-            BuildableName = "DandanliApp.app"
             BlueprintName = "DandanliApp"
+            BuildableName = "DandanliApp.app"
             ReferencedContainer = "container:DandanliApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
