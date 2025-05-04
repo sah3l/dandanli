@@ -1,0 +1,16 @@
+workflows:
+  dandanli-ios:
+    name: Dandanli iOS Build
+    max_build_duration: 60
+    environment:
+      xcode: latest
+    scripts:
+      - name: Build iOS app
+        script: |
+          xcodebuild build \
+            -project DandanliApp.xcodeproj \
+            -scheme DandanliApp \
+            -configuration Debug \
+            -destination 'generic/platform=iOS'
+    artifacts:
+      - build/Debug-iphoneos/*.app
